@@ -8,11 +8,12 @@ const Header = () => {
   return (
     <div className={s.header}>
       <nav className={s.nav}>
-        <ul className={s.nav_content}>
+        <div className={s.nav_content}>
           <NavLink to="/" className={s.logo}>
             <img src={logo1} alt="" className={s.logo_img} />
             <img src={logo2} alt="" className={s.logo_text} />
           </NavLink>
+          <ul className={s.nav_link}>
           <li className={s.li_link}>
             <NavLink to="/heroes" className={s.link}>
               Герои
@@ -28,7 +29,8 @@ const Header = () => {
               Новости
             </NavLink>
           </li>
-        </ul>
+          </ul>
+        </div>
 
 
           <li>

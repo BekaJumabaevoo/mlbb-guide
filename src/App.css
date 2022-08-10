@@ -4,3 +4,8 @@
   list-style: none;
   text-decoration: none;
 }
+
+li .active{
+  transition: 0.7s;
+  border-bottom: solid rgb(19, 162, 124);
+}
