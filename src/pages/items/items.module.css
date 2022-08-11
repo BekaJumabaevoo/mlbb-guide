@@ -46,11 +46,6 @@ font-size: 50px;
 
     color: #a0a0a0;
 }
-.filter_btn{
-    display: flex;
-    gap: 5px;
-}
-
 .btn{
     background: none;
     border: none;

@@ -41,22 +41,14 @@ letter-spacing: 6px;
 .attribute{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
-.attribute_text{
 
-    color: #a0a0a0;
-}
-.filter_btn{
-    display: flex;
-    gap: 5px;
-}
-.img_btn{
-    width: 46px;
-    height: 46px;
-    background: #a0a0a0;
-}
+
 .btn{
+    color: #b7b7b7;
+    font-size: 13px;
+    text-transform: uppercase;
     border: none;
     background: none;
 }

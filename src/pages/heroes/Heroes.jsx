@@ -37,27 +37,24 @@ const Heroes = () => {
           <div className={s.filter}>
             <li className={s.filter_text}>ФИЛЬТР</li>
             <div className={s.attribute}>
-              <li className={s.attribute_text}>АТРИБУТ</li>
-              <div className={s.filter_btn}>
                 <button className={s.btn}>
-                  <img src={tank} alt="tank" className={s.img_btn} />
+                  Танки
                 </button>
                 <button className={s.btn}>
-                  <img src={fighter} alt="fighter" className={s.img_btn} />
+                  Бойцы
                 </button>
                 <button className={s.btn}>
-                  <img src={mage} alt="mage" className={s.img_btn} />
+                  Маги
                 </button>
                 <button className={s.btn}>
-                  <img src={assasin} alt="assasin" className={s.img_btn} />
+                  Убийцы
                 </button>
                 <button className={s.btn}>
-                  <img src={marksman} alt="marksman" className={s.img_btn} />
+                  Стрелки
                 </button>
                 <button className={s.btn}>
-                  <img src={support} alt="support" className={s.img_btn} />
+                  Поддержки
                 </button>
-              </div>
             </div>
             <div className={s.search_box}>
               <img  src={search} alt="support" className={s.search_icon} />
