@@ -28,17 +28,19 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: 'Karla', sans-serif;
+  margin-bottom: -20px;
 }
 .line {
   width: 150px;
   height: 5px;
   background-color: #b37710;
+  
 }
 .news{
   display: flex;
   flex-direction: column; 
   gap: 20px;
-  padding: 20px 0 0 20px;
+  padding: 10px 0 0 20px;
 }
 .news_text{
   display: flex;
@@ -85,7 +87,7 @@ transition: 0.4s;
   background-image: url("../../assets/hero.jpg");
   background-size: cover;
   position: absolute;
-  margin-top: 690px;
+  margin-top: 660px;
   display: flex;
   justify-content: center;
   z-index: -1;
@@ -139,7 +141,7 @@ transition: 0.4s;
   background-image: url("../../assets/champlogo.jpg");
   background-size: cover;
   position: absolute;
-  margin-top: 1435px;
+  margin-top: 1390px;
   display: flex;
   justify-content: center;
   z-index: -1;

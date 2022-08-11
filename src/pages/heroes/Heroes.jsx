@@ -11,6 +11,7 @@ import axios from "axios";
 
 const Heroes = () => {
   const [heroes, setHeroes] = useState([]);
+  
 
   useEffect(() => {
     axios
@@ -21,6 +22,10 @@ const Heroes = () => {
   }, []);
 
   console.log(heroes);
+  const [value, setValue] = useState('')
+  const fliterHero = heroes.filter(game => {
+      return game.name.toLowerCase().includes(value.toLocaleLowerCase())
+  })
 
 
   return (
@@ -55,13 +60,13 @@ const Heroes = () => {
               </div>
             </div>
             <div className={s.search_box}>
-              <img src={search} alt="support" className={s.search_icon} />
-              <input className={s.search_input} type="text" />
+              <img  src={search} alt="support" className={s.search_icon} />
+              <input className={s.search_input} type="text" onChange={(event) => setValue(event.target.value)}/>
             </div>
           </div>
         </div>
           <div className={s.block}>
-            {heroes.map((hero) => {
+            {fliterHero.map((hero) => {
               console.log(hero)
               return (
                 <div className={s.box} key={heroes.id}>
