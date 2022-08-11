@@ -57,6 +57,7 @@ letter-spacing: 6px;
     background: #a0a0a0;
 }
 .btn{
+    border: none;
     background: none;
 }
 
@@ -83,9 +84,24 @@ letter-spacing: 6px;
     height: 37px;
     border: none;
     color:#d2d2d2;
-    height: 20pp;
+    height: 20px;
     outline: none;
     background: #5a5a5a;
     font-size: 18px;
     transition: 0.4s;
+}
+.block{
+    width: 85%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 33px;
+}
+.hero_img{
+    width: 180px;
+    height: 220px;
+    padding-top: 10px;
+}
+.hero_title{
+    background-color: #616161;
+    padding: 13px;
 }

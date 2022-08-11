@@ -1,5 +1,6 @@
 import React from 'react'
 import s from "./items.module.css"
+import search from '../../assets/icon/search.svg'
 
 const Items = () => {
   return (
@@ -9,20 +10,35 @@ const Items = () => {
         <p className={s.game}>НУ ПРЕДМЕТЫ ХЕРНЯ, БАЛАНС ТОЖЕ</p>
         <div className={s.content}>
           <div className={s.filter}>
-          <h4 className={s.filter_text}>ФИЛЬТР</h4>
-          <div className='filter_btn'>
-            <button><img src="" alt="" /></button>
-            <button><img src="" alt="" /></button>
-            <button><img src="" alt="" /></button>
-            <button><img src="" alt="" /></button>
-            <button><img src="" alt="" /></button>
+            <li className={s.filter_text}>ФИЛЬТР</li>
+            <div className={s.attribute}>
+
+                <button className={s.btn}>
+                 Атака
+                </button>
+                <button className={s.btn}>
+                  Магия
+                </button>
+                <button className={s.btn}>
+                  Защита
+                </button>
+                <button className={s.btn}>
+                Передвижение
+                </button>
+
+            </div>
+            <div className={s.search_box}>
+            <img src={search} alt="support" className={s.search_icon}/>
+            <input
+              className={s.search_input}
+              type="text"
+            />
           </div>
-      <input type="text" />
           </div>
-          <div className={s.box}></div>
-          <div className={s.box}></div>
-          <div className={s.box}></div>
-          <div className={s.box}></div>
+          <div className={s.box} >
+            
+          </div>
+
         </div>
       </div>
     </div>

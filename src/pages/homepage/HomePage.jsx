@@ -3,6 +3,7 @@ import video from "../../assets/video.mp4";
 import s from "./homepage.module.css";
 import { NavLink } from "react-router-dom";
 import Newscontainer from "../../components/newscontainer/Newscontainer";
+import Footer from "../../components/footer/Footer";
 
 function HomePage() {
   return (
@@ -43,7 +44,7 @@ function HomePage() {
           <h4 className={s.hero_title}>КОГО ВЫ</h4>
           <h3 className={s.hero_subtitle}>ВЫБЕРЕТЕ?</h3>
           <div className={s.line}></div>
-          <li className={s.hero_text}> 
+          <li className={s.hero_text}>
             Список героев в ML: BB огромен и безгранично разнообразен: здесь вы
             встретите и магов-тактиков, и свирепых громил, и хитроумных
             негодяев. Их невероятные способности и сокрушительные ульты
@@ -56,6 +57,22 @@ function HomePage() {
           </li>
         </div>
       </div>
+      <div className={s.champ}>
+        <div className={s.champ_content}>
+          <h4 className={s.champ_title}>ПРОФЕССИОНАЛЬНЫЙ</h4>
+          <h3 className={s.champ_subtitle}>ТУРНИРНЫЙ СЕЗОН</h3>
+          <div className={s.line}></div>
+          <li className={s.champ_text}>
+            Отдыхая от продвижения по системе рейтинга, вы можете учиться у
+            лучших. В профессиональном сезоне вы увидите высочайший уровень
+            соревновательной Моблы, и следить за ним можно в клиенте игры, на
+            Twitch и на YouTube. Не пропускайте ни одной трансляции, ведь с
+            каждым матчем приближается самый большой киберспортивный турнир в
+            мире — M1.
+          </li>
+        </div>
+      </div>
+ 
     </div>
   );
 }
