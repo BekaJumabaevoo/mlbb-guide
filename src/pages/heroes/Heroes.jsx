@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import s from "./heroes.module.css";
+import search from "../../assets/icon/search.svg";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
 
