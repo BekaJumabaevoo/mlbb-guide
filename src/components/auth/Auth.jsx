@@ -16,15 +16,13 @@ const Auth = () => {
           <input type="password"  name="" required=""/>
           <label>Password</label>
         </div>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Войти
-        </a>
         <li>
-          <NavLink to="/regist" className="title">Не зарегистрированы?</NavLink>
+          <NavLink to="/">
+          Войти
+            </NavLink>
+        </li>
+        <li>
+          <NavLink to="/regist" >Не зарегистрированы?</NavLink>
         </li>
       </form>
     </div>

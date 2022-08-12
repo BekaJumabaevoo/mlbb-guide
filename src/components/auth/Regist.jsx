@@ -20,13 +20,9 @@ const Regist = () => {
           <input type="password" />
           <label>Password</label>
         </div>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+            <NavLink to="/auth">
           Зарегистрироваться
-        </a>
+            </NavLink>
             <li>
             <NavLink className="title" to="/auth">Есть аккаунт?</NavLink>
             </li>
