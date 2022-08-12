@@ -6,6 +6,7 @@
     color: #fff;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 .news{
     width: 80%;
@@ -15,4 +16,20 @@
     gap: 20px;
     align-items: center;
     flex-direction: column;
+}
+.news_block{
+    width: 370px;
+    height: 265px;
+    border-bottom: 3px solid #b1b1b1;
+    transition: 0.5s;
+}   
+.news_block:hover{
+    transform: translateX(0px) translateY(-10px) !important;
+}
+.block{
+    width: 97%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
 }

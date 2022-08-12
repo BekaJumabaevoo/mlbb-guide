@@ -1,6 +1,6 @@
 .container {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100vh;
     background-color: black;
     padding-top: 80px;
     color: #fff;
@@ -21,7 +21,7 @@ font-size: 50px;
 letter-spacing: 6px;
 }
 .content{
-    width: 85%;
+    width: 95%;
     height: 90px;
     background-color: #2a2a2a;
     display: flex;
@@ -41,7 +41,7 @@ letter-spacing: 6px;
 .attribute{
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 
@@ -87,19 +87,22 @@ letter-spacing: 6px;
     transition: 0.4s;
 }
 .block{
-    width: 85%;
+    width: 90%;
    display: flex;
    flex-wrap: wrap;
-   gap: 33px;
+   gap: 23px;
 }
 .hero_img{
-    width: 180px;
-    height: 220px;
+    width: 200px;
+    height: 230px;
     padding-top: 10px;
 }
 .hero_title{
     background-color: #616161;
     padding: 13px;
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
 }
 .box:hover{
     transition: 0.3s;

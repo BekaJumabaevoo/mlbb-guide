@@ -3,7 +3,6 @@ import video from "../../assets/video.mp4";
 import s from "./homepage.module.css";
 import { NavLink } from "react-router-dom";
 import Newscontainer from "../../components/newscontainer/Newscontainer";
-import Footer from "../../components/footer/Footer";
 
 function HomePage() {
   return (
@@ -17,7 +16,7 @@ function HomePage() {
         </h5>
         <div className={s.line}></div>
         <li>
-          <NavLink to="/signup" className={s.regist}>
+          <NavLink to="/regist" className={s.regist}>
             Регистрация
           </NavLink>
         </li>
@@ -31,11 +30,7 @@ function HomePage() {
             </li>
           </div>
           <div className={s.news_content}>
-            <div className={s.news_block}>
               <Newscontainer />
-              <Newscontainer />
-              <Newscontainer />
-            </div>
           </div>
         </div>
       </div>

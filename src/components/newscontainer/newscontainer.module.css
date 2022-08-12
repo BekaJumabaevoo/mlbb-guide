@@ -1,7 +1,14 @@
 
+.container{
+    display: flex;
+    gap: 35px;
+}
 .news_block{
     width: 370px;
-    height: 245px;
+    height: 265px;
     border-bottom: 3px solid #b1b1b1;
-    background-color: #5e5e5e;
+    transition: 0.5s;
 }   
+.news_block:hover{
+    transform: translateX(0px) translateY(-10px) !important;
+}

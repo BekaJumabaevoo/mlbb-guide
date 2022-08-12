@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 40px;
+  padding: 25px;
   width: 80%;
 }
 .text {
@@ -47,12 +47,7 @@
   align-items: center;
   gap: 30px;
 }
-.news_block{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-}
 
 .all_news{
 letter-spacing: 2px;
@@ -87,7 +82,7 @@ transition: 0.4s;
   background-image: url("../../assets/hero.jpg");
   background-size: cover;
   position: absolute;
-  margin-top: 660px;
+  margin-top: 661px;
   display: flex;
   justify-content: center;
   z-index: -1;

@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-color: black;
     padding-top: 80px;
     color: #fff;
@@ -8,8 +8,9 @@
     justify-content: center;
 }
 .items{
-    width: 80%;
+    width: 85%;
     height: 80%;
+    min-height: 100vh;
     display: flex;
     padding-top: 60px;
     gap: 20px;
@@ -20,7 +21,7 @@
 font-size: 50px;
 }
 .content{
-    width: 85%;
+    width: 90%;
     height: 80px;
     background-color: #2a2a2a;
     display: flex;
@@ -34,7 +35,7 @@ font-size: 50px;
     justify-content: space-between;
 }
 .filter_text{
-    font-size: 18   px;
+    font-size: 18px;
     letter-spacing: 3px;
 }
 .attribute{
@@ -87,3 +88,19 @@ font-size: 50px;
     font-size: 13px;
     transition: 0.4s;
 }
+.role{
+   padding: 10px;
+}
+
+  .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 70%;
+    padding: 10px 30px 0 30px;
+  }
+  .characteristic{
+    padding: 20px 50px 30px 50px;
+  }
+  .thead{
+  font-size: 20px;
+  }

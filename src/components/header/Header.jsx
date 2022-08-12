@@ -34,7 +34,7 @@ const Header = () => {
 
 
           <li>
-            <NavLink to="/signin" className={s.auth}>
+            <NavLink to="/auth" className={s.auth}>
               Войти
             </NavLink>
           </li>
